@@ -1,3 +1,5 @@
+import Useform from '../src/assets/images/useform.png';
+
 export default function App() {
   return (
     <div className="App">
@@ -5,7 +7,7 @@ export default function App() {
         <nav>
           <div>
             <a>
-              <img src="../src/assets/images/useform.png" alt="Useform-Logo" />
+              <img src={Useform} alt="Useform-Logo" />
             </a>
             <ul>
               <li>
