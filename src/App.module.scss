@@ -232,7 +232,7 @@ nav {
   }
 }
 
-.container.sectionIntegrationMadeSimple {
+.sectionIntegrationMadeSimple {
   display: flex;
   justify-content: center;
 }
@@ -243,13 +243,12 @@ nav {
   padding-left: 6rem;
 }
 
-.sectionStylingAndBranding {
+.container.sectionStylingAndBranding {
   display: flex;
   justify-content: center;
 }
 
-.container.sectionRightBox {
-  width: 34rem;
-  height: 21.0625;
-  padding-left: 6rem;
+.container.sectionFileUploading {
+  display: flex;
+  justify-content: center;
 }

@@ -1,6 +1,7 @@
 import SatisfactionForm from '../src/assets/images/dashboard-satisfaction-form.png';
 import EmbedeFuture from '../src/assets/images/embed-feature.png';
 import FieldsOverView from '../src/assets/images/fields-overview.png';
+import FileUpload from '../src/assets/images/file-upload.png';
 import FormStyling from '../src/assets/images/form-styling.png';
 import Background from '../src/assets/images/grid-overlay.png';
 import Useform from '../src/assets/images/useform.png';
@@ -337,6 +338,81 @@ export default function App() {
         </div>
         <div className={styles.sectionImageConainer}>
           <img src={FormStyling} alt="files overview" />
+        </div>
+      </section>
+      <section className={`${styles.container} ${styles.sectionFileUploading}`}>
+        <div className={styles.sectionImageConainer}>
+          <img src={FileUpload} alt="files overview" />
+        </div>
+        <div className={styles.sectionRightBox}>
+          <span className={styles.badgeSection}>File uploading</span>
+          <h2 className={styles.headerSection}>
+            Receive files and images through your forms
+          </h2>
+          <p className={styles.paragraphSection}>
+            Building file uploading is a pain. We made it easy for you to
+            receive any type of files through your forms.
+          </p>
+          <div className={styles.breakLine} />
+          <ul className={styles.unorderedList}>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Receive files and images through your forms.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Restrict file types.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Allow one or multiple files per upload.</p>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
