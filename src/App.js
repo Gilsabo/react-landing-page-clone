@@ -110,8 +110,10 @@ export default function App() {
       </section>
       <section className={`${styles.container} ${styles.sectionEasyToUse}`}>
         <div className={styles.sectionEasyTouseLeftBox}>
-          <span>Easy to use</span>
-          <h2>Create stunning forms in minutes, without code.</h2>
+          <span className={styles.badgeSection}>Easy to use</span>
+          <h2 className={styles.headerSection}>
+            Create stunning forms in minutes, without code.
+          </h2>
           <p>
             Create an embeddable or hosted form, for any website, in minutes.
           </p>
