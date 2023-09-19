@@ -1,4 +1,5 @@
 import SatisfactionForm from '../src/assets/images/dashboard-satisfaction-form.png';
+import FieldsOverView from '../src/assets/images/fields-overview.png';
 import Background from '../src/assets/images/grid-overlay.png';
 import Useform from '../src/assets/images/useform.png';
 import styles from './App.module.scss';
@@ -32,7 +33,7 @@ export default function App() {
           </div>
         </nav>
       </header>
-      <section className={styles.sectionHero}>
+      <section className={`${styles.sectionHero} ${styles.container}`}>
         <img src={Background} className={styles.imageHero} alt="background" />
         <div className={styles.boxHero}>
           <div className={styles.spanSectionHero}>
@@ -105,6 +106,36 @@ export default function App() {
         </div>
         <div className={styles.sectionHeroLastImage}>
           <img src={SatisfactionForm} alt="satisfaction form" />
+        </div>
+      </section>
+      <section className={`${styles.container} ${styles.easyToUse}`}>
+        <div>
+          <div>
+            box 1<span>Easy to use</span>
+            <h2>Create stunning forms in minutes, without code.</h2>
+            <p>
+              Create an embeddable or hosted form, for any website, in minutes.
+            </p>
+            <hr />
+            <ul>
+              <li>
+                <span>+</span>
+                <p>Drag & drop form-builder optimized for busy people.</p>
+              </li>
+              <li>
+                <span>10+ different types of fields.</span>
+                <p>+</p>
+              </li>
+              <li>
+                <span>+</span>
+                <p>Powerful and flexible to meet your needs.</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            box 2
+            <img src={FieldsOverView} alt="files overview" />
+          </div>
         </div>
       </section>
     </div>
