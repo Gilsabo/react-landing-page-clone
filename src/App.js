@@ -118,17 +118,62 @@ export default function App() {
             Create an embeddable or hosted form, for any website, in minutes.
           </p>
           <div className={styles.breakLine} />
-          <ul>
+          <ul className={styles.unorderedList}>
             <li>
-              <span>+</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
               <p>Drag & drop form-builder optimized for busy people.</p>
             </li>
             <li>
-              <span>10+ different types of fields.</span>
-              <p>+</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>10+ different types of fields.</p>
             </li>
             <li>
-              <span>+</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
               <p>Powerful and flexible to meet your needs.</p>
             </li>
           </ul>
