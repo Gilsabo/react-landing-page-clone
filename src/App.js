@@ -109,7 +109,7 @@ export default function App() {
         </div>
       </section>
       <section className={`${styles.container} ${styles.sectionEasyToUse}`}>
-        <div className={styles.sectionEasyTouseLeftBox}>
+        <div className={styles.sectionLeftBox}>
           <span className={styles.badgeSection}>Easy to use</span>
           <h2 className={styles.headerSection}>
             Create stunning forms in minutes, without code.
@@ -178,8 +178,86 @@ export default function App() {
             </li>
           </ul>
         </div>
-        <div className={styles.sectionEasyTouseImageConainer}>
+        <div className={styles.sectionImageConainer}>
           <img src={FieldsOverView} alt="files overview" />
+        </div>
+      </section>
+
+      <section
+        className={`${styles.container} ${styles.sectionIntegrationMadeSimple}`}
+      >
+        <div className={styles.sectionImageConainer}>
+          <img src={FieldsOverView} alt="files overview" />
+        </div>
+        <div className={styles.sectionRightBox}>
+          <span className={styles.badgeSection}>Integration made simple</span>
+          <h2 className={styles.headerSection}>
+            Embed into your website, or use our hosted form.
+          </h2>
+          <p className={styles.paragraphSection}>
+            Make it personal and embed it into your website (HTML, Framer, etc).
+            Or use the hosted form, and share the link with your audience.
+          </p>
+          <div className={styles.breakLine} />
+          <ul className={styles.unorderedList}>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Easy HTML embed, 3 lines of code.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Integrate with many platforms.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Hosted form with shareable link.</p>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
