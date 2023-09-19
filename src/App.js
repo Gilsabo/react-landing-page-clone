@@ -114,10 +114,10 @@ export default function App() {
           <h2 className={styles.headerSection}>
             Create stunning forms in minutes, without code.
           </h2>
-          <p>
+          <p className={styles.paragraphSection}>
             Create an embeddable or hosted form, for any website, in minutes.
           </p>
-          <hr />
+          <div className={styles.breakLine} />
           <ul>
             <li>
               <span>+</span>

@@ -188,4 +188,24 @@ nav {
 }
 
 .headerSection {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-top: 1.25rem;
+  letter-spacing: -0.025em;
+}
+
+.paragraphSection {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1.25rem;
+  color: #292524;
+}
+
+.breakLine {
+  height: 1px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-top: rgb(231, 229, 228) 1px solid;
+  width: 100%;
 }
