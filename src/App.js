@@ -108,34 +108,31 @@ export default function App() {
           <img src={SatisfactionForm} alt="satisfaction form" />
         </div>
       </section>
-      <section className={`${styles.container} ${styles.easyToUse}`}>
-        <div>
-          <div>
-            box 1<span>Easy to use</span>
-            <h2>Create stunning forms in minutes, without code.</h2>
-            <p>
-              Create an embeddable or hosted form, for any website, in minutes.
-            </p>
-            <hr />
-            <ul>
-              <li>
-                <span>+</span>
-                <p>Drag & drop form-builder optimized for busy people.</p>
-              </li>
-              <li>
-                <span>10+ different types of fields.</span>
-                <p>+</p>
-              </li>
-              <li>
-                <span>+</span>
-                <p>Powerful and flexible to meet your needs.</p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            box 2
-            <img src={FieldsOverView} alt="files overview" />
-          </div>
+      <section className={`${styles.container} ${styles.sectionEasyToUse}`}>
+        <div className={styles.sectionEasyTouseLeftBox}>
+          <span>Easy to use</span>
+          <h2>Create stunning forms in minutes, without code.</h2>
+          <p>
+            Create an embeddable or hosted form, for any website, in minutes.
+          </p>
+          <hr />
+          <ul>
+            <li>
+              <span>+</span>
+              <p>Drag & drop form-builder optimized for busy people.</p>
+            </li>
+            <li>
+              <span>10+ different types of fields.</span>
+              <p>+</p>
+            </li>
+            <li>
+              <span>+</span>
+              <p>Powerful and flexible to meet your needs.</p>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.sectionEasyTouseImageConainer}>
+          <img src={FieldsOverView} alt="files overview" />
         </div>
       </section>
     </div>
