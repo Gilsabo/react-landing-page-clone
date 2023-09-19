@@ -1,6 +1,7 @@
 import SatisfactionForm from '../src/assets/images/dashboard-satisfaction-form.png';
 import EmbedeFuture from '../src/assets/images/embed-feature.png';
 import FieldsOverView from '../src/assets/images/fields-overview.png';
+import FormStyling from '../src/assets/images/form-styling.png';
 import Background from '../src/assets/images/grid-overlay.png';
 import Useform from '../src/assets/images/useform.png';
 import styles from './App.module.scss';
@@ -183,7 +184,6 @@ export default function App() {
           <img src={FieldsOverView} alt="files overview" />
         </div>
       </section>
-
       <section
         className={`${styles.container} ${styles.sectionIntegrationMadeSimple}`}
       >
@@ -259,6 +259,84 @@ export default function App() {
               <p>Hosted form with shareable link.</p>
             </li>
           </ul>
+        </div>
+      </section>
+      <section
+        className={`${styles.container} ${styles.sectionStylingAndBranding}`}
+      >
+        <div className={styles.sectionLeftBox}>
+          <span className={styles.badgeSection}>Styling & branding</span>
+          <h2 className={styles.headerSection}>
+            Your brand will shine, not ours.
+          </h2>
+          <p className={styles.paragraphSection}>
+            It's important for us to make sure your forms reflect your branding
+            or client branding. We took styling further than any other form
+            builder.
+          </p>
+          <div className={styles.breakLine} />
+          <ul className={styles.unorderedList}>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>30+ different styling options.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Styling works on both embed & hosted forms.</p>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="#3b82f6"
+                aria-hidden="true"
+                width="24"
+                height="24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p>Inject custom CSS on your forms (soon).</p>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.sectionImageConainer}>
+          <img src={FormStyling} alt="files overview" />
         </div>
       </section>
     </div>
