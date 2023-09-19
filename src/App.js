@@ -1,4 +1,5 @@
 import SatisfactionForm from '../src/assets/images/dashboard-satisfaction-form.png';
+import EmbedeFuture from '../src/assets/images/embed-feature.png';
 import FieldsOverView from '../src/assets/images/fields-overview.png';
 import Background from '../src/assets/images/grid-overlay.png';
 import Useform from '../src/assets/images/useform.png';
@@ -187,7 +188,7 @@ export default function App() {
         className={`${styles.container} ${styles.sectionIntegrationMadeSimple}`}
       >
         <div className={styles.sectionImageConainer}>
-          <img src={FieldsOverView} alt="files overview" />
+          <img src={EmbedeFuture} alt="files overview" />
         </div>
         <div className={styles.sectionRightBox}>
           <span className={styles.badgeSection}>Integration made simple</span>
