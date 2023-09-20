@@ -252,3 +252,29 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.sectionPackedWithFeatures {
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .sectionPackedWithFeaturesHeader {
+    font-family: 'Inter', sans-serif;
+    margin: 0rem 0rem 2rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+  }
+  .sectionPackedWithFeaturesparagraph {
+    margin: 0rem 0rem 3rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+  }
+}
+
+.sectionPackedWithFeaturesmainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}

@@ -415,6 +415,64 @@ export default function App() {
           </ul>
         </div>
       </section>
+      <section className={styles.sectionPackedWithFeatures}>
+        <h2 className={styles.sectionPackedWithFeaturesHeader}>
+          Packed with features to help you succeed.
+        </h2>
+        <p className={styles.sectionPackedWithFeaturesparagraph}>
+          Useform makes it easy to create forms for any use-case, without code.
+        </p>
+        <div className={styles.sectionPackedWithFeaturesmainContainer}>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>Easy to use</h3>
+            <p>
+              An intuitive drag-and-drop form-builder for every use-case which
+              you’ll love using.
+            </p>
+          </div>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>Customize your forms</h3>
+            <p>
+              We make it easy to customize your forms to fit your company or
+              client branding, without code.
+            </p>
+          </div>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>Save time & money</h3>
+            <p>
+              Stop spending time & money on the development of forms, focus on
+              what matters the most.
+            </p>
+          </div>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>High Delivery</h3>
+            <p>
+              We guarantee an high deliverability and uptime, thanks to our
+              scalable infrastructure.
+            </p>
+          </div>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>Integrate with your tools</h3>
+            <p>
+              Never miss a submission, connect your forms to your favorite tools
+              without disrupting your workflow.
+            </p>
+          </div>
+          <div className={styles.box}>
+            <span>p</span>
+            <h3>Easily handle file uploads</h3>
+            <p>
+              Allow file uploads on your submissions with ease, no extra setup
+              required.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
