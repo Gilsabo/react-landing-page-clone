@@ -578,6 +578,17 @@ export default function App() {
         </p>
         <a>View all platforms</a>
       </section>
+      <section className={styles.sectionBlack}>
+        <h2>
+          Ditch your bloated form builder and
+          <br /> focus on what matters the most.
+        </h2>
+        <p>
+          Create a form, embed it into your website
+          <br /> and share it with your clients, in minutes.
+        </p>
+        <a>Get started for free</a>
+      </section>
     </div>
   );
 }
