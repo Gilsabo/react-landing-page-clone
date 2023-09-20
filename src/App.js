@@ -424,7 +424,23 @@ export default function App() {
         </p>
         <div className={styles.sectionPackedWithFeaturesmainContainer}>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
+                />
+              </svg>
+            </span>
             <h3>Easy to use</h3>
             <p>
               An intuitive drag-and-drop form-builder for every use-case which
@@ -432,7 +448,23 @@ export default function App() {
             </p>
           </div>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.620m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+                />
+              </svg>
+            </span>
             <h3>Customize your forms</h3>
             <p>
               We make it easy to customize your forms to fit your company or
@@ -440,7 +472,24 @@ export default function App() {
             </p>
           </div>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              {' '}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)" // Set the color to rgb(36, 99, 235)
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
             <h3>Save time & money</h3>
             <p>
               Stop spending time & money on the development of forms, focus on
@@ -448,7 +497,23 @@ export default function App() {
             </p>
           </div>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)" // Set the color to rgb(36, 99, 235)
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"
+                />
+              </svg>
+            </span>
             <h3>High Delivery</h3>
             <p>
               We guarantee an high deliverability and uptime, thanks to our
@@ -456,7 +521,23 @@ export default function App() {
             </p>
           </div>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)" // Set the color to rgb(36, 99, 235)
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+            </span>
             <h3>Integrate with your tools</h3>
             <p>
               Never miss a submission, connect your forms to your favorite tools
@@ -464,7 +545,23 @@ export default function App() {
             </p>
           </div>
           <div className={styles.box}>
-            <span>p</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="rgb(36, 99, 235)" // Set the color to rgb(36, 99, 235)
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
+                />
+              </svg>
+            </span>
             <h3>Easily handle file uploads</h3>
             <p>
               Allow file uploads on your submissions with ease, no extra setup

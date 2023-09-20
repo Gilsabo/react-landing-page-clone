@@ -277,9 +277,16 @@ nav {
   grid-template-rows: 1fr 1fr;
   row-gap: 2rem;
   column-gap: 2rem;
+  width: 1060px;
   .box {
     span {
-      padding: 0.5;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      padding: 0.5rem;
+      border-radius: 50%;
+      background-color: #dbe9fe;
+      display: flex;
     }
     h3 {
       margin: 0.75rem 0rem 0rem;
