@@ -570,7 +570,14 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className={styles.sectionIntegrateWithplatforms}>
+        <h2>Integrate with popular platforms</h2>
+        <p>
+          Useform can integrate with many platforms, including Framer, Webflow,
+          Carrd, and more.
+        </p>
+        <a>View all platforms</a>
+      </section>
     </div>
   );
 }
