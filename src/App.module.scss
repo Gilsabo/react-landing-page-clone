@@ -277,4 +277,21 @@ nav {
   grid-template-rows: 1fr 1fr;
   row-gap: 2rem;
   column-gap: 2rem;
+  .box {
+    span {
+      padding: 0.5;
+    }
+    h3 {
+      margin: 0.75rem 0rem 0rem;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    p {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin: 0.75rem 0rem 0rem;
+      letter-spacing: -0.025em;
+    }
+  }
 }
